@@ -51,8 +51,7 @@ section {
 }
 
 .order {
-  text-shadow: -1px -1px 0 yellow, 1px -1px 0 yellow, -1px 1px 0 yellow,
-    1px 1px yellow;
+  text-shadow: 1px 1px yellow;
 }
 
 .nav {
