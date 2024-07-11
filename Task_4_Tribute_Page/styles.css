@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 1em;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.biography {
+  background-color: #e0e0e0;
+  padding: 1em;
+  border-radius: 8px;
+  margin-bottom: 2em;
+  line-height: 1.8;
+}
+.biography p {
+  background-color: white;
+  margin: 0.5em 0;
+  padding: 0.5em;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+}
+
+.achievements {
+  background-color: #e0e0e0;
+  padding: 1em;
+  border-radius: 8px;
+  margin-bottom: 2em;
+}
+
+.qualities {
+  background-color: #e0e0e0;
+  padding: 1em;
+  border-radius: 8px;
+  margin-bottom: 2em;
+}
+
+.achievements li {
+  background-color: white;
+  margin: 0.5em 0;
+  padding: 0.5em;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+}
+
+.qualities li {
+  background-color: white;
+  margin: 0.5em 0;
+  padding: 0.5em;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+}
+
+.wikipedia {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-size: large;
+  display: inline-block;
+}
+a:active {
+  color: red;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #333;
+  color: white;
+}
